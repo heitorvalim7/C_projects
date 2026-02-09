@@ -2,24 +2,24 @@ Arquivos Esperados Corretos: 7 de 7
 Pastas Compiladas Corretamente: 5 de 5 
 Pastas Linkadas Corretamente: 5 de 5
 Teste main
-  - Resultados corretos: 10 de 10
-  - Valgrinds corretos: 10 de 10
-Nota de heitor para o teste main: 7.50
+  - Resultados corretos: 10 de 13
+  - Valgrinds corretos: 10 de 13
+Nota de heitor para o teste main: 5.70
 Teste completo
-  - Resultados corretos: 10 de 10
-  - Valgrinds corretos: 10 de 10
+  - Resultados corretos: 10 de 13
+  - Valgrinds corretos: 10 de 13
 Nota de heitor para o teste completo: 0
 Teste fila
-  - Resultados corretos: 10 de 10
-  - Valgrinds corretos: 10 de 10
-Nota de heitor para o teste fila: 1.00
+  - Resultados corretos: 10 de 13
+  - Valgrinds corretos: 10 de 13
+Nota de heitor para o teste fila: .76
 Teste reserva
-  - Resultados corretos: 10 de 10
-  - Valgrinds corretos: 10 de 10
-Nota de heitor para o teste reserva: 1.00
+  - Resultados corretos: 10 de 13
+  - Valgrinds corretos: 10 de 13
+Nota de heitor para o teste reserva: .76
 Teste economica
-  - Resultados corretos: 10 de 10
-  - Valgrinds corretos: 10 de 10
-Nota de heitor para o teste economica: .50
-Nota de heitor: 0+(1.00)+(1.00)+(.50)+(7.50)+(0)
-Nota de heitor: 10.00
+  - Resultados corretos: 10 de 13
+  - Valgrinds corretos: 10 de 13
+Nota de heitor para o teste economica: .38
+Nota de heitor: 0+(.76)+(.76)+(.38)+(5.70)+(0)
+Nota de heitor: 7.60

@@ -73,6 +73,9 @@ int comparaPassageiro(const void *a, const void *b){
     if (!a || !b) return 0;
     Passageiro *p1 = *(Passageiro **)a;
     Passageiro *p2 = *(Passageiro **)b;
+    if(getReservasConfirmadas(p2) == getReservasConfirmadas(p1)){
+        return strcmp(getNomePessoa(p1->pessoa), getNomePessoa(p2->pessoa));
+    }
     return getReservasConfirmadas(p2) - getReservasConfirmadas(p1);
 } 
 int verificaCPFPassageiro(void *dado1, void *dado2){

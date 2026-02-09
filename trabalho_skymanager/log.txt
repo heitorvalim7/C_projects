@@ -148,6 +148,15 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Valgrind: Ok! allocs: 588, frees: 588, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 12:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 13:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 14:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta main / Caso 2:
  - Arquivo de output gerado: Resultados/heitor/main/Casos/2/result_valgrind.txt.
  - Valgrind: Ok! allocs: 189, frees: 189, errors: 0 | Desconto do valgrind: 0.0%
@@ -170,7 +179,7 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta main / Caso 6:
  - Arquivo de output gerado: Resultados/heitor/main/Casos/6/result_valgrind.txt.
- - Valgrind: Ok! allocs: 189, frees: 189, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 210, frees: 210, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta main / Caso 7:
@@ -188,7 +197,7 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Valgrind: Ok! allocs: 179, frees: 179, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
- - Nota para a pasta main (máximo 7.50) - 100.00 de 100 - 100.00% de 7.50: 7.50.
+ - Nota para a pasta main (máximo 7.50) - 100.00 de 130 - 76.00% de 7.50: 5.70.
  -----
  - Pasta completo / Caso 1:
  - Arquivo de output gerado: Resultados/heitor/completo/Casos/1/result_valgrind.txt.
@@ -200,6 +209,15 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Valgrind: Ok! allocs: 678, frees: 678, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 12:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 13:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 14:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta completo / Caso 2:
  - Arquivo de output gerado: Resultados/heitor/completo/Casos/2/result_valgrind.txt.
  - Valgrind: Ok! allocs: 189, frees: 189, errors: 0 | Desconto do valgrind: 0.0%
@@ -222,7 +240,7 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta completo / Caso 6:
  - Arquivo de output gerado: Resultados/heitor/completo/Casos/6/result_valgrind.txt.
- - Valgrind: Ok! allocs: 189, frees: 189, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 210, frees: 210, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta completo / Caso 7:
@@ -240,7 +258,7 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Valgrind: Ok! allocs: 200, frees: 200, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
- - Nota para a pasta completo (máximo 0.0) - 100.00 de 100 - 100.00% de 0.0: 0.
+ - Nota para a pasta completo (máximo 0.0) - 100.00 de 130 - 76.00% de 0.0: 0.
  -----
  - Pasta fila / Caso 1:
  - Arquivo de output gerado: Resultados/heitor/fila/Casos/1/result_valgrind.txt.
@@ -252,6 +270,15 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Valgrind: Ok! allocs: 307, frees: 307, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta fila / Caso 12:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta fila / Caso 13:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta fila / Caso 14:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta fila / Caso 2:
  - Arquivo de output gerado: Resultados/heitor/fila/Casos/2/result_valgrind.txt.
  - Valgrind: Ok! allocs: 88, frees: 88, errors: 0 | Desconto do valgrind: 0.0%
@@ -292,7 +319,7 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Valgrind: Ok! allocs: 93, frees: 93, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
- - Nota para a pasta fila (máximo 1.00) - 100.00 de 100 - 100.00% de 1.00: 1.00.
+ - Nota para a pasta fila (máximo 1.00) - 100.00 de 130 - 76.00% de 1.00: .76.
  -----
  - Pasta reserva / Caso 1:
  - Arquivo de output gerado: Resultados/heitor/reserva/Casos/1/result_valgrind.txt.
@@ -304,6 +331,15 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Valgrind: Ok! allocs: 397, frees: 397, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta reserva / Caso 12:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta reserva / Caso 13:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta reserva / Caso 14:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta reserva / Caso 2:
  - Arquivo de output gerado: Resultados/heitor/reserva/Casos/2/result_valgrind.txt.
  - Valgrind: Ok! allocs: 88, frees: 88, errors: 0 | Desconto do valgrind: 0.0%
@@ -344,7 +380,7 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Valgrind: Ok! allocs: 114, frees: 114, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
- - Nota para a pasta reserva (máximo 1.00) - 100.00 de 100 - 100.00% de 1.00: 1.00.
+ - Nota para a pasta reserva (máximo 1.00) - 100.00 de 130 - 76.00% de 1.00: .76.
  -----
  - Pasta economica / Caso 1:
  - Arquivo de output gerado: Resultados/heitor/economica/Casos/1/result_valgrind.txt.
@@ -356,6 +392,15 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Valgrind: Ok! allocs: 307, frees: 307, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta economica / Caso 12:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta economica / Caso 13:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta economica / Caso 14:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta economica / Caso 2:
  - Arquivo de output gerado: Resultados/heitor/economica/Casos/2/result_valgrind.txt.
  - Valgrind: Ok! allocs: 88, frees: 88, errors: 0 | Desconto do valgrind: 0.0%
@@ -396,7 +441,7 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Valgrind: Ok! allocs: 93, frees: 93, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
- - Nota para a pasta economica (máximo 0.50) - 100.00 de 100 - 100.00% de 0.50: .50.
+ - Nota para a pasta economica (máximo 0.50) - 100.00 de 130 - 76.00% de 0.50: .38.
  -----
 
 #######################################
@@ -409,27 +454,27 @@ Aluno: heitor
  - Pastas Compiladas Corretamente: 5 de 5 
  - Pastas Linkadas Corretamente: 5 de 5
  - Teste main
- - Resultados corretos: 10 de 10
- - Valgrinds corretos: 10 de 10
- - Nota de heitor para o teste main: 7.50
+ - Resultados corretos: 10 de 13
+ - Valgrinds corretos: 10 de 13
+ - Nota de heitor para o teste main: 5.70
  - Teste completo
- - Resultados corretos: 10 de 10
- - Valgrinds corretos: 10 de 10
+ - Resultados corretos: 10 de 13
+ - Valgrinds corretos: 10 de 13
  - Nota de heitor para o teste completo: 0
  - Teste fila
- - Resultados corretos: 10 de 10
- - Valgrinds corretos: 10 de 10
- - Nota de heitor para o teste fila: 1.00
+ - Resultados corretos: 10 de 13
+ - Valgrinds corretos: 10 de 13
+ - Nota de heitor para o teste fila: .76
  - Teste reserva
- - Resultados corretos: 10 de 10
- - Valgrinds corretos: 10 de 10
- - Nota de heitor para o teste reserva: 1.00
+ - Resultados corretos: 10 de 13
+ - Valgrinds corretos: 10 de 13
+ - Nota de heitor para o teste reserva: .76
  - Teste economica
- - Resultados corretos: 10 de 10
- - Valgrinds corretos: 10 de 10
- - Nota de heitor para o teste economica: .50
- - Nota de heitor: 0+(1.00)+(1.00)+(.50)+(7.50)+(0)
- - Nota de heitor: 10.00
+ - Resultados corretos: 10 de 13
+ - Valgrinds corretos: 10 de 13
+ - Nota de heitor para o teste economica: .38
+ - Nota de heitor: 0+(.76)+(.76)+(.38)+(5.70)+(0)
+ - Nota de heitor: 7.60
 
 ----------------------------------------------------------------------------
 

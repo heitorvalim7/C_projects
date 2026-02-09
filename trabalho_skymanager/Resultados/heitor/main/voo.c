@@ -38,14 +38,14 @@ Voo *criaVoo(char *codigo, char *origem, char *destino, char *codigoAeronave, Da
     strcpy(v->origem = (char *)malloc(strlen(origem) + 1), origem);
     strcpy(v->destino = (char *)malloc(strlen(destino) + 1), destino);
     strcpy(v->codigoAeronave = (char *)malloc(strlen(codigoAeronave) + 1), codigoAeronave);
-    v->data = data; // Assume ownership of the Data pointer
+    v->data = data; 
     v->horaSaida = horaSaida;
     v->horaChegada = horaChegada;
     v->preco = preco;
 
     return v;
 }
-/** Lê um Voo da entrada padrão conforme especificação do trabalho */
+
 Voo *leVoo(){
     char codigo[21], origem[31], destino[31], codigoAeronave[100];
     int horaSaida, horaChegada;
@@ -102,6 +102,13 @@ int verificaCodigoVoo(void *dado, void *chave){
     if (!dado || !chave) return 0;
     Voo *v = (Voo *)dado;
     return strcmp(getCodigoVoo(v), (char *)chave) == 0;
+}
+
+int verificaHorarioVoo(void *voo1, void *voo2){
+    if((comparaData(getDataVoo(voo1), getDataVoo(voo2)) == 0) && (getHoraSaidaVoo(voo1)<getHoraChegadaVoo(voo2) || getHoraChegadaVoo(voo1)>getHoraSaidaVoo(voo2))){
+        return 0; 
+    }
+    return 1;
 }
 
 void imprimeVoo(void *dado){

@@ -28,6 +28,7 @@ void desalocaVoo(void *dado);
 /** Comparação por código do voo (retorna 1 se iguais, 0 caso contrário) */
 int comparaVoo(const void *a, const void *b);
 int verificaCodigoVoo(void *dado, void *chave);
+int verificaHorarioVoo(void *voo1, void *voo2);
 
 void imprimeVoo(void *dado);
 

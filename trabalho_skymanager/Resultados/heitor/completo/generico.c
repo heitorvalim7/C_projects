@@ -65,9 +65,13 @@ void adicionaItemArray(Generico *array, void *dado) {
  * @param array Ponteiro para a estrutura Array
  */
 void desalocaArray(Generico *array){
-    for (int i = 0; i < array->tamanho; i++) {
-        array->desaloca(array->arrayGenerico[i]);
+
+    if(array->desaloca != NULL){
+        for (int i = 0; i < array->tamanho; i++) {
+            array->desaloca(array->arrayGenerico[i]);
+        }
     }
+    
     free(array->arrayGenerico);
     free(array);
 }

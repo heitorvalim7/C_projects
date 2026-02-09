@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "sistema.h"
+#include "voo.h"
 #define tam_cpf 20
 #define tam_codigo_voo 20
 #define tam_tipo_reserva 100
@@ -131,6 +132,7 @@ int sistemaProcessaReserva(void *ptr_sistema, void *ptr_voos, Reserva *reserva) 
     }
 
     setStatusReserva(reserva, "CONFIRMADA"); 
+    incrementaReservasConfirmadas(p);
     float precoFinal = sistemaCalculaPrecoReserva(s, reserva, p);
     setPrecoReserva(reserva, precoFinal);
 
@@ -242,9 +244,8 @@ void sistemaAdicionaPassageiro(Sistema *s){
     Passageiro *p = lePassageiro();
     if (!p) return;
 
-    // Verifica se CPF já existe usando a busca genérica
     if (getItemVerificacaoArray(s->bancoPassageiros, getCpfPassageiro(p))) {
-        desalocaPassageiro(p); // Ignora se duplicado [cite: 35, 37]
+        desalocaPassageiro(p); 
         return;
     }
 
@@ -269,6 +270,13 @@ void sistemaAdicionaVoo(Sistema *s) {
         desalocaVoo(v);
         return;
     }
+
+    for(int i = 0; i<getTamanhoArray(s->bancoVoos); i++){
+        if(!verificaHorarioVoo((Voo*)getItemPosicaoArray(s->bancoVoos, i), v)){
+            return;
+        }
+    }
+    
     adicionaItemArray(s->bancoVoos, v);
 }
 
@@ -576,12 +584,17 @@ int sistemaQntdAeronaves(Sistema *s){
  */
 void sistemaImprimeRankingPassageiros(Sistema *s, int topN){
     if (!s) return;
-    ordenaArray(s->bancoPassageiros); 
+    Generico *banco = criaArray(imprimePassageiro, NULL, comparaPassageiro, verificaCPFPassageiro, getTamanhoPassageiro);
+    for(int i = 0; i<getTamanhoArray(s->bancoPassageiros); i++){
+        adicionaItemArray(banco,getItemPosicaoArray(s->bancoPassageiros, i));
+    }
+    ordenaArray(banco); 
     printf("================================\n");
     printf("===== Ranking Passageiros =====\n");
     printf("================================\n");
-    imprimeArray(s->bancoPassageiros);
+    imprimeArray(banco);
     printf("================================\n");
+    desalocaArray(banco);
 }
 
 /**
@@ -591,12 +604,18 @@ void sistemaImprimeRankingPassageiros(Sistema *s, int topN){
  */
 void sistemaImprimeRankingTripulantes(Sistema *s){
     if (!s) return;
-    ordenaArray(s->bancoTripulantes); 
+    Generico *banco = criaArray(imprimeTripulante, NULL, comparaTripulante, verificaCPFTripulante, getTamanhoTripulante);
+    for(int i = 0; i<getTamanhoArray(s->bancoTripulantes); i++){
+        adicionaItemArray(banco,getItemPosicaoArray(s->bancoTripulantes, i));
+    }
+    ordenaArray(banco); 
     printf("================================\n");
     printf("===== Ranking Tripulantes =====\n");
     printf("================================\n");
-    imprimeArray(s->bancoTripulantes); 
+    imprimeArray(banco); 
     printf("================================\n");
+
+    desalocaArray(banco);
 }
 void sistemaImprimeRelatorio(Sistema *s){
     printf("=============================\n");

@@ -86,6 +86,9 @@ void desalocaTripulante(void *dado){
 int comparaTripulante(const void *a, const void *b){
     Tripulante *t1 = *(Tripulante **)a;
     Tripulante *t2 = *(Tripulante **)b;
+    if(getHorasTripulante(t2) == getHorasTripulante(t1)){
+        return strcmp(getNomePessoa(t1->pessoa), getNomePessoa(t2->pessoa));
+    }
     return getHorasTripulante(t2) - getHorasTripulante(t1);
 } 
 

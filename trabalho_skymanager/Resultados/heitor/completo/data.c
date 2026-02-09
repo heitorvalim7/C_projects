@@ -61,9 +61,11 @@ int getAno(Data *d) { return d ? d->ano : -1; }
 
 int comparaData( Data *a,  Data *b) {
     if (!a || !b) return 0;
-    if (a->ano != b->ano) return a->ano - b->ano;
-    if (a->mes != b->mes) return a->mes - b->mes;
-    return a->dia - b->dia;
+    if (a->ano != b->ano) return 1;
+    if (a->mes != b->mes) return 1;
+    if (a->dia != b->dia) return 1;
+
+    return 0;
 }
 
 int calculaIdade(Data *dataNascimento, Data *dataAtual) {

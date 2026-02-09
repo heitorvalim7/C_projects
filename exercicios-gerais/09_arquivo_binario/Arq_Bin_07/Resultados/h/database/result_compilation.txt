@@ -1,0 +1,21 @@
+database.c:14:1: warning: no semicolon at end of struct or union
+   14 | };
+      | ^
+database.c: In function ‘DestroiDatabase’:
+database.c:33:31: warning: passing argument 2 of ‘VectorDestroy’ from incompatible pointer type [-Wincompatible-pointer-types]
+   33 |     VectorDestroy(db->alunos, DestroiAluno);
+      |                               ^~~~~~~~~~~~
+      |                               |
+      |                               void (*)(tAluno *) {aka void (*)(struct Aluno *)}
+In file included from database.c:2:
+vector.h:64:38: note: expected ‘void (*)(void *)’ but argument is of type ‘void (*)(tAluno *)’ {aka ‘void (*)(struct Aluno *)’}
+   64 | void VectorDestroy(Vector *v, void (*destroy)(DataType));
+      |                               ~~~~~~~^~~~~~~~~~~~~~~~~~
+database.c:34:36: warning: passing argument 2 of ‘VectorDestroy’ from incompatible pointer type [-Wincompatible-pointer-types]
+   34 |     VectorDestroy(db->professores, DestroiProfessor);
+      |                                    ^~~~~~~~~~~~~~~~
+      |                                    |
+      |                                    void (*)(tProfessor *) {aka void (*)(struct Professor *)}
+vector.h:64:38: note: expected ‘void (*)(void *)’ but argument is of type ‘void (*)(tProfessor *)’ {aka ‘void (*)(struct Professor *)’}
+   64 | void VectorDestroy(Vector *v, void (*destroy)(DataType));
+      |                               ~~~~~~~^~~~~~~~~~~~~~~~~~
