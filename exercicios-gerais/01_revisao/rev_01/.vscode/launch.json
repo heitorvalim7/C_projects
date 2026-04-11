@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "name": "(gdb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "./prog",
+            "args": [],
+            "preLaunchTask": "compilacao",
+        }
+    ]
+}
