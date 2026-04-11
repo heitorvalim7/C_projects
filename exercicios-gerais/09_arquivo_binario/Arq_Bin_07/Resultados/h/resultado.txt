@@ -1,0 +1,29 @@
+Arquivos Esperados Corretos: 8 de 9
+Pastas Compiladas Corretamente: 5 de 6 
+Pastas Linkadas Corretamente: 4 de 6
+Teste main
+  - Resultados corretos: 0 de 3
+  - Valgrinds corretos: 0 de 3
+Nota de h para o teste main: 0
+Teste completo
+  - Resultados corretos: 0 de 3
+  - Valgrinds corretos: 0 de 3
+Nota de h para o teste completo: 0
+Teste aluno
+  - Resultados corretos: 3 de 3
+  - Valgrinds corretos: 3 de 3
+Nota de h para o teste aluno: 1.66
+Teste database
+  - Resultados corretos: 0 de 3
+  - Valgrinds corretos: 0 de 3
+Nota de h para o teste database: 0
+Teste professor
+  - Resultados corretos: 3 de 3
+  - Valgrinds corretos: 3 de 3
+Nota de h para o teste professor: 1.66
+Teste vector
+  - Resultados corretos: 3 de 3
+  - Valgrinds corretos: 3 de 3
+Nota de h para o teste vector: 1.66
+Nota de h: 0+(1.66)+(1.66)+(0)+(1.66)+(0)+(0)
+Nota de h: 4.98

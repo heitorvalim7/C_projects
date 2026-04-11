@@ -1,0 +1,2 @@
+Numero de bytes salvos: 1362
+Error: vector_get: invalid index 0 for vector with size 0.
