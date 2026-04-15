@@ -42,6 +42,7 @@ int main (){
     for(int i = 0; i<n; i++){
         mediaP += p[i]->percentualRepro;
     }
+    mediaP /= n;
     for(int i = 0; i<n; i++){
         if(p[i]->percentualRepro > mediaP){
             printf("%s\n", p[i]->nome);
