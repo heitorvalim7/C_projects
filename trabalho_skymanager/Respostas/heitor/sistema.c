@@ -41,7 +41,7 @@ Sistema *criaSistema(){
 /*
  * @brief Roda o sistema, processando todas as reservas na fila
  * @param s Ponteiro para o Sistema
- */
+ */ 
 void sistemaRoda(Sistema *sistema){
     char comando;
 
@@ -273,11 +273,16 @@ void sistemaAdicionaVoo(Sistema *s) {
 
     for(int i = 0; i<getTamanhoArray(s->bancoVoos); i++){
         if(!verificaHorarioVoo((Voo*)getItemPosicaoArray(s->bancoVoos, i), v)){
+            desalocaVoo(v);
             return;
         }
     }
-    
+
+    int tamanhoAntes = getTamanhoArray(s->bancoVoos);
     adicionaItemArray(s->bancoVoos, v);
+    if (getTamanhoArray(s->bancoVoos) == tamanhoAntes) {
+        desalocaVoo(v);
+    }
 }
 
 
