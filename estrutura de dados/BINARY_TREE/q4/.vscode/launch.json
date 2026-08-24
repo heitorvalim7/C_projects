@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug C (CodeLLDB)",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${fileDirname}/main",
+            "args": [],
+            "cwd": "${fileDirname}",
+            "preLaunchTask": "C/C++: gcc build active file",
+            "terminal": "integrated"
+        }
+    ]
+}
